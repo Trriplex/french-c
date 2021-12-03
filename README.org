@@ -1,0 +1,32 @@
+* French C
+** Installation
+Download /french-c.h/ in your project directory.
+Just add
+#+BEGIN_SRC c
+#include "french-c.h"
+#+END_SRC
+at the beginning of your main file
+** Usage
+Here's an example of how you can write code in french C:
+#+BEGIN_SRC c
+#include <stdio.h>
+#include <string.h>
+#include "french-c.h"
+
+définition_type structure livre commencer
+	caractère titre[50];
+	caractère auteur[50];
+	entier prix;
+finir livre;
+
+entier principal(vide)
+commencer
+	livre mon_livre;
+	copie_caractères(mon_livre.titre, "Les Misérables");
+	copie_caractères(mon_livre.auteur, "Victor Hugo");
+	mon_livre.prix = 15;	
+	afficher("Prix du livre %s: %d€\n", mon_livre.titre, mon_livre.prix);
+	retourner 0;
+finir
+#+END_SRC
+French C is made out of macros, so it's as fast as C.

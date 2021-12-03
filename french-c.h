@@ -1,0 +1,16 @@
+#define entier int
+#define pas_signé unsigned
+#define signé signed
+#define caractère char
+#define caractères char*
+#define pointeur void*
+#define flottant float
+#define structure struct
+#define définition_type typedef
+#define principal main
+#define vide void
+#define afficher printf
+#define retourner return
+#define commencer {
+#define finir }
+#define copie_caractères strcpy
